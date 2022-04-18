@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(89, 101, 109);
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+#container{
+
+    width: 80%;
+    height: 400px;
+    padding: 20px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+#survey-form {
+        border-style:inset;
+        border-color:rgb(136, 126, 126);
+        padding: 7%;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,6);
+        background-color:rgba(90, 82, 82, 0.863);
+        width: 500px;
+        max-width: 100%;
+    
+      
+}
+/* form{
+    border: 1px solid black;
+    background-color: rgba(184, 50, 50, 0.637);
+    padding: 50px;
+    opacity: 0.3;
+
+} */
+.form-group3 select{
+    width: 50%;
+}
+.form-group input{
+    width: 70%;
+    height: 30px;
+    border: 2px outset rgb(129, 123, 123);
+    border-radius: 10px;
+    
+}
+.form-group label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.form-group button{
+    width: 70%;
+    height: 40px;
+    background-color: rgb(137, 174, 206);
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.form-group button:hover{
+    opacity:0.8;
+}
+.form-group3 select{
+    height: 40px;
+    width: 70%;
+    border: 2px outset rgb(129, 123, 123);
+    border-radius: 10px;
+}
+.form-group4 label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.form-group2 label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.form-group textarea{
+    border: 2px outset rgb(129, 123, 123);
+    border-radius: 10px;
+    font-size: large;
+    max-width: 100%;
+}
